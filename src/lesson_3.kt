@@ -7,7 +7,7 @@ fun main() {
     // конкатенация строк
     println(greeting +  ", " + userName + "!" + space + "What is your main question?")
 
-    //интерполяция строк
+    // интерполяция строк
     println("$greeting, $userName! What is your main question?")
     println("To which you can respond ${40 + 2}")
 
