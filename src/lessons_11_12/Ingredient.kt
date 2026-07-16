@@ -1,9 +1,9 @@
 package lessons_11_12
 
-class Ingredient {
+class Ingredient(_name: String, _weight: Int, _count: Int) {
 
-    var name = ""
-    var weight = 99
-    var count = 99
+    var name = _name
+    var weight = _weight
+    var count = _count
 
 }

@@ -16,8 +16,7 @@ fun main() {
         ingredients = listOf("вода", "курица", "вермишель", "соль", "перец"),
     )
 
-    val ingredient1 = Ingredient()
-    ingredient1.name = "репчатый лук"
+    val ingredient1 = Ingredient(_name = "картошка", _weight = 1, _count = 1)
     println(ingredient1.name)
 
 //    println(dish1.name)
@@ -33,18 +32,18 @@ fun main() {
 //    println(dish1.category)
 //    println(dish2.inFavorites)
 
-    println("Действия для блюда Яичница")
-    dish1.addToFavorites()
-    println(dish1.inFavorites)
-    dish1.startCooking()
+//    println("Действия для блюда Яичница")
+//    dish1.addToFavorites()
+//    println(dish1.inFavorites)
+//    dish1.startCooking()
 
-    println()
+//    println()
 
-    println("Действия для блюда Суп лапша")
-    dish2.addToFavorites()
-    println(dish2.inFavorites)
-    val ingredientsForSoup = dish2.downloadIngredients()
-    println(ingredientsForSoup)
-    dish2.removeFromFavorites()
-    println(dish2.inFavorites)
+//    println("Действия для блюда Суп лапша")
+//    dish2.addToFavorites()
+//    println(dish2.inFavorites)
+//    val ingredientsForSoup = dish2.downloadIngredients()
+//    println(ingredientsForSoup)
+//    dish2.removeFromFavorites()
+//    println(dish2.inFavorites)
 }
