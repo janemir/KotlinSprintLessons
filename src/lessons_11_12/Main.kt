@@ -17,7 +17,7 @@ fun main() {
     )
 
     val ingredient1 = Ingredient(_name = "картошка", _weight = 1, _count = 1)
-    println(ingredient1.name)
+    println(ingredient1._name)
 
 //    println(dish1.name)
 //    println(dish1.ingredients)
