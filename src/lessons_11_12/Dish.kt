@@ -1,4 +1,4 @@
-package lesson_11
+package lessons_11_12
 
 class Dish(
     val id: Int,

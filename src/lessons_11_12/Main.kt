@@ -1,4 +1,4 @@
-package lesson_11
+package lessons_11_12
 
 fun main() {
 
@@ -15,6 +15,10 @@ fun main() {
         category = "Обеды",
         ingredients = listOf("вода", "курица", "вермишель", "соль", "перец"),
     )
+
+    val ingredient1 = Ingredient()
+    ingredient1.name = "репчатый лук"
+    println(ingredient1.name)
 
 //    println(dish1.name)
 //    println(dish1.ingredients)
