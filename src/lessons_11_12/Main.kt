@@ -16,8 +16,10 @@ fun main() {
         ingredients = listOf("вода", "курица", "вермишель", "соль", "перец"),
     )
 
-    val ingredient1 = Ingredient(_name = "картошка", _weight = 1, _count = 1)
+    val ingredient1 = Ingredient(_name = "картошка", _weight = 100, _count = 1)
+    val ingredient2 = Ingredient(name = "морковь", weight = 50, count = 1, _isNeedToPrepare = true)
     println(ingredient1._name)
+    println(ingredient2._name)
 
 //    println(dish1.name)
 //    println(dish1.ingredients)
